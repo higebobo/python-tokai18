@@ -1,0 +1,17 @@
+[Pure Python]
+t value: -2.96561491008
+t dist(0.05): 2.365 True
+t dist(0.01): 3.499 False
+
+[R]
+t value: -2.96561491008
+p value: 0.0209375702069
+t dist(0.05): 2.36462425159 True
+t dist(0.01): 3.49948329735 False
+
+[Scipy]
+t value: -2.96561491008
+p value: 0.0209375702069
+t dist(0.05): 2.36462425101 True
+t dist(0.01): 3.49948329735 False
+

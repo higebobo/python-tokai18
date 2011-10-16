@@ -1,0 +1,26 @@
+[Pure Python]
+F value: 12.2231101945
+F dist(0.05): 3.15 True
+F dist(0.01): 4.977 True
+
+[R]
+Analysis of Variance Table
+
+Response: y
+          Df  Sum Sq Mean Sq F value    Pr(>F)    
+A          2  748.63  374.32  12.223 3.825e-05 ***
+Residuals 57 1745.55   30.62                      
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+[R]
+F value: 12.2231101945
+p value: 3.82482645839e-05
+F dist(0.05): 3.15884271926 True
+F dist(0.01): 4.99810955622 True
+
+[Scipy]
+F value: 12.2231101945
+p value: 3.82482645839e-05
+F dist(0.05): 3.15884271926 True
+F dist(0.01): 4.99810955622 True
